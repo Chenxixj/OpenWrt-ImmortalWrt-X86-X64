@@ -22,4 +22,4 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # Modify hostname
 # sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
-# sed -i 's/content="${explain}${header}"/content="${content}${explain}${header}"/g' ./feeds/luci/applications/luci-app-wechatpush/root/usr/share/wechatpush/wechatpush
+sed -i 's/content="${explain}${header}"/content="${content}${explain}${header}"/g' ./feeds/luci/applications/luci-app-wechatpush/root/usr/share/wechatpush/wechatpush
