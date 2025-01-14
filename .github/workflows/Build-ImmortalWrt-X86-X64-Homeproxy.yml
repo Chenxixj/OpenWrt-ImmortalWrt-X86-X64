@@ -1,5 +1,5 @@
 
-name: Build X86_64 Version OpenWrt
+name: Build ImmortalWrt X86-X64 Homeproxy
 
 on:
   repository_dispatch:
