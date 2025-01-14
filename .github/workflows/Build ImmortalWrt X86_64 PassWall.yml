@@ -179,7 +179,7 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body: |
-          **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }} PassWall Version **
+          **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }} PassWall Version**
           ### 📒 固件信息
           - 💻 平台架构: ${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
           - ⚽ 固件源码: ${{ env.REPO_URL }}
