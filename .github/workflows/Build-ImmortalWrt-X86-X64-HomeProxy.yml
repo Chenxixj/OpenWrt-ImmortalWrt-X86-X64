@@ -1,5 +1,5 @@
 
-name: Build ImmortalWrt X86-X64 Homeproxy
+name: Build ImmortalWrt X86-X64 HomeProxy
 
 on:
   repository_dispatch:
