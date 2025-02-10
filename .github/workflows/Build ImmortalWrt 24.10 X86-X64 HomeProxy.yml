@@ -9,7 +9,7 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: 24.10/feeds.conf.default
-  CONFIG_FILE: 24.10/ImmortalWrt-HomeProxy.config
+  CONFIG_FILE: 24.10/.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
@@ -180,7 +180,7 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body: |
-          **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }} HomeProxy Version**
+          **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }} HomeProxy Version 24.10**
           ### 📒 固件信息
           - 💻 平台架构: ${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
           - ⚽ 固件源码: ${{ env.REPO_URL }}
